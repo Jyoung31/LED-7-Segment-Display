@@ -324,75 +324,75 @@ void displayDigit2(int digit,CRGB color,int delayTime){
   
   
     if(digit==1){
-      seg42();
-      seg52();
+      seg42(color);
+      seg52(color);
       FastLED.show();
     } else if (digit ==2){
-      seg22();
-      seg32();
-      seg12();
-      seg72();
-      seg62();
+      seg22(color);
+      seg32(color);
+      seg12(color);
+      seg72(color);
+      seg62(color);
       FastLED.show();
     } else if (digit == 3){
-      seg12();
-      seg32();
-      seg42();
-      seg52();
-      seg62();
+      seg12(color);
+      seg32(color);
+      seg42(color);
+      seg52(color);
+      seg62(color);
       FastLED.show();
     } else if (digit==4){
-      seg12();
-      seg22();
-      seg42();
-      seg52();      
+      seg12(color);
+      seg22(color);
+      seg42(color);
+      seg52(color);      
       
 
       FastLED.show();
     } else if (digit==5){
-      seg32();
-      seg22();
-      seg12();
-      seg52();
-      seg62();
+      seg32(color);
+      seg22(color);
+      seg12(color);
+      seg52(color);
+      seg62(color);
       FastLED.show();
     } else if (digit==6){
-      seg32();
-      seg22();
-      seg12();
-      seg52();
-      seg62();
-      seg72();
+      seg32(color);
+      seg22(color);
+      seg12(color);
+      seg52(color);
+      seg62(color);
+      seg72(color);
       FastLED.show();
     } else if (digit==7){
-      seg32();
-      seg42();
-      seg52();
+      seg32(color);
+      seg42(color);
+      seg52(color);
       FastLED.show();
     } else if (digit==8){
-      seg12();
-      seg22();
-      seg32();
-      seg42();
-      seg52();
-      seg62();
-      seg72();
+      seg12(color);
+      seg22(color);
+      seg32(color);
+      seg42(color);
+      seg52(color);
+      seg62(color);
+      seg72(color);
       FastLED.show();
     } else if (digit==9){
-      seg12();
-      seg22();
-      seg32();
-      seg42();
-      seg52();
-      seg62();
+      seg12(color);
+      seg22(color);
+      seg32(color);
+      seg42(color);
+      seg52(color);
+      seg62(color);
       FastLED.show();
     } else if (digit==0){
-      seg22();
-      seg32();
-      seg42();
-      seg52();
-      seg62();
-      seg72();
+      seg22(color);
+      seg32(color);
+      seg42(color);
+      seg52(color);
+      seg62(color);
+      seg72(color);
     }
 
 
@@ -431,36 +431,36 @@ void loopColors8(){
 
 }
 
-void seg12(){
+void seg12(CRGB color){
       leds[0]=color;//segment in middle
       leds[1]=color;
       leds[2]=color;
 }
-void seg22(){
+void seg22(CRGB color){
       leds[3]=color;//segment on top left
       leds[4]=color;
       leds[5]=color;
 }
-void seg32(){
+void seg32(CRGB color){
       leds[6]=color;//segment on top
       leds[7]=color;
       leds[8]=color;
 }
-void seg42(){
+void seg42(CRGB color){
       leds[9]=color;//segment on top right
       leds[10]=color;
       leds[11]=color;
 }
-void seg52(){
+void seg52(CRGB color){
       leds[12]=color;//segment on bottom right
       leds[13]=color;
       leds[14]=color;
 }
-void seg62(){
+void seg62(CRGB color){
       leds[15]=color;//segment on bottom 
       leds[16]=color;
       leds[17]=color;
-}void seg72(){
+}void seg72(CRGB color){
       leds[18]=color;//segment on bottom left
       leds[19]=color;
       leds[20]=color;
