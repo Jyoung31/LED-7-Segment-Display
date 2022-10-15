@@ -331,7 +331,7 @@ void displayDigit2(int digit,CRGB color,int delayTime){
       seg22(color);
       seg32(color);
       seg12(color);
-      seg72(color);
+      seg52(color);
       seg62(color);
       FastLED.show();
     } else if (digit == 3){
@@ -436,32 +436,32 @@ void seg12(CRGB color){
       leds[1]=color;
       leds[2]=color;
 }
-void seg22(CRGB color){
-      leds[3]=color;//segment on top left
+void seg72(CRGB color){
+      leds[3]=color;//segment on bottom left
       leds[4]=color;
       leds[5]=color;
 }
-void seg32(CRGB color){
-      leds[6]=color;//segment on top
+void seg62(CRGB color){
+      leds[6]=color;//segment on bottom
       leds[7]=color;
       leds[8]=color;
 }
-void seg42(CRGB color){
-      leds[9]=color;//segment on top right
+void seg52(CRGB color){
+      leds[9]=color;//segment on bottom right
       leds[10]=color;
       leds[11]=color;
 }
-void seg52(CRGB color){
-      leds[12]=color;//segment on bottom right
+void seg42(CRGB color){
+      leds[12]=color;//segment on top right
       leds[13]=color;
       leds[14]=color;
 }
-void seg62(CRGB color){
-      leds[15]=color;//segment on bottom 
+void seg32(CRGB color){
+      leds[15]=color;//segment on top 
       leds[16]=color;
       leds[17]=color;
-}void seg72(CRGB color){
-      leds[18]=color;//segment on bottom left
+}void seg22(CRGB color){
+      leds[18]=color;//segment on top left
       leds[19]=color;
       leds[20]=color;
 }
