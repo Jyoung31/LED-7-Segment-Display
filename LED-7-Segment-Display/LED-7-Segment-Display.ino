@@ -63,56 +63,56 @@ void loop() {
   //red is 0, green is 1, blue is 2, white is 3, yellow is 4, and 5
   CRGB red = CRGB::Red;
 
-  displayDigit(0,red,delayTime);
-  displayDigit(1,red,delayTime);
-  displayDigit(2,red,delayTime);
-  displayDigit(3,red,delayTime);
-  displayDigit(4,red,delayTime);
-  displayDigit(5,red,delayTime);
-  displayDigit(6,red,delayTime);
-  displayDigit(7,red,delayTime);
-  displayDigit(8,red,delayTime);
-  displayDigit(9,red,delayTime);
-  displayDigit(0,CRGB::Blue,delayTime);
-  displayDigit(1,CRGB::Blue,delayTime);
-  displayDigit(2,CRGB::Blue,delayTime);
-  displayDigit(3,CRGB::Blue,delayTime);
-  displayDigit(4,CRGB::Blue,delayTime);
-  displayDigit(5,CRGB::Blue,delayTime);
-  displayDigit(6,CRGB::Blue,delayTime);
-  displayDigit(7,CRGB::Blue,delayTime);
-  displayDigit(8,CRGB::Blue,delayTime);
-  displayDigit(9,CRGB::Blue,delayTime);
-  displayDigit(0,CRGB::Green,delayTime);
-  displayDigit(1,CRGB::Green,delayTime);
-  displayDigit(2,CRGB::Green,delayTime);
-  displayDigit(3,CRGB::Green,delayTime);
-  displayDigit(4,CRGB::Green,delayTime);
-  displayDigit(5,CRGB::Green,delayTime);
-  displayDigit(6,CRGB::Green,delayTime);
-  displayDigit(7,CRGB::Green,delayTime);
-  displayDigit(8,CRGB::Green,delayTime);
-  displayDigit(9,CRGB::Green,delayTime);
-  displayDigit(0,CRGB::Orange,delayTime);
-  displayDigit(1,CRGB::Orange,delayTime);
-  displayDigit(2,CRGB::Orange,delayTime);
-  displayDigit(3,CRGB::Orange,delayTime);
-  displayDigit(4,CRGB::Orange,delayTime);
-  displayDigit(5,CRGB::Orange,delayTime);
-  displayDigit(6,CRGB::Orange,delayTime);
-  displayDigit(7,CRGB::Orange,delayTime);
-  displayDigit(8,CRGB::Orange,delayTime);
-  displayDigit(9,CRGB::Orange,delayTime);
-  displayDigit(0,CRGB::Pink,delayTime);
-  displayDigit(1,CRGB::Pink,delayTime);
-  displayDigit(2,CRGB::Pink,delayTime);
-  displayDigit(3,CRGB::Pink,delayTime);
-  displayDigit(4,CRGB::Pink,delayTime);
-  displayDigit(5,CRGB::Pink,delayTime);
-  displayDigit(6,CRGB::Pink,delayTime);
-  displayDigit(7,CRGB::Pink,delayTime);
-  displayDigit(8,CRGB::Pink,delayTime);
-  displayDigit(9,CRGB::Pink,delayTime);
+  displayDigit2(0,red,delayTime);
+  displayDigit2(1,red,delayTime);
+  displayDigit2(2,red,delayTime);
+  displayDigit2(3,red,delayTime);
+  displayDigit2(4,red,delayTime);
+  displayDigit2(5,red,delayTime);
+  displayDigit2(6,red,delayTime);
+  displayDigit2(7,red,delayTime);
+  displayDigit2(8,red,delayTime);
+  displayDigit2(9,red,delayTime);
+  displayDigit2(0,CRGB::Blue,delayTime);
+  displayDigit2(1,CRGB::Blue,delayTime);
+  displayDigit2(2,CRGB::Blue,delayTime);
+  displayDigit2(3,CRGB::Blue,delayTime);
+  displayDigit2(4,CRGB::Blue,delayTime);
+  displayDigit2(5,CRGB::Blue,delayTime);
+  displayDigit2(6,CRGB::Blue,delayTime);
+  displayDigit2(7,CRGB::Blue,delayTime);
+  displayDigit2(8,CRGB::Blue,delayTime);
+  displayDigit2(9,CRGB::Blue,delayTime);
+  displayDigit2(0,CRGB::Green,delayTime);
+  displayDigit2(1,CRGB::Green,delayTime);
+  displayDigit2(2,CRGB::Green,delayTime);
+  displayDigit2(3,CRGB::Green,delayTime);
+  displayDigit2(4,CRGB::Green,delayTime);
+  displayDigit2(5,CRGB::Green,delayTime);
+  displayDigit2(6,CRGB::Green,delayTime);
+  displayDigit2(7,CRGB::Green,delayTime);
+  displayDigit2(8,CRGB::Green,delayTime);
+  displayDigit2(9,CRGB::Green,delayTime);
+  displayDigit2(0,CRGB::Orange,delayTime);
+  displayDigit2(1,CRGB::Orange,delayTime);
+  displayDigit2(2,CRGB::Orange,delayTime);
+  displayDigit2(3,CRGB::Orange,delayTime);
+  displayDigit2(4,CRGB::Orange,delayTime);
+  displayDigit2(5,CRGB::Orange,delayTime);
+  displayDigit2(6,CRGB::Orange,delayTime);
+  displayDigit2(7,CRGB::Orange,delayTime);
+  displayDigit2(8,CRGB::Orange,delayTime);
+  displayDigit2(9,CRGB::Orange,delayTime);
+  displayDigit2(0,CRGB::Pink,delayTime);
+  displayDigit2(1,CRGB::Pink,delayTime);
+  displayDigit2(2,CRGB::Pink,delayTime);
+  displayDigit2(3,CRGB::Pink,delayTime);
+  displayDigit2(4,CRGB::Pink,delayTime);
+  displayDigit2(5,CRGB::Pink,delayTime);
+  displayDigit2(6,CRGB::Pink,delayTime);
+  displayDigit2(7,CRGB::Pink,delayTime);
+  displayDigit2(8,CRGB::Pink,delayTime);
+  displayDigit2(9,CRGB::Pink,delayTime);
 //  displayDigit(0,red,delayTime);
 //  displayDigit(1,red,delayTime);
 //  displayDigit(2,red,delayTime);
@@ -141,7 +141,7 @@ void testColors(int ledCount, CRGB color){
     FastLED.show();
   }
 }
-void displayDigit(int digit,CRGB color,int delayTime){
+void displayDigit1(int digit,CRGB color,int delayTime){
   
   
     if(digit==1){
@@ -313,7 +313,87 @@ void displayDigit(int digit,CRGB color,int delayTime){
       leds[5]=color;
       FastLED.show();
     }
+    delay(delayTime);
+    for (int i=0; i<NUM_LEDS;i++){
+    leds[i]=CRGB::Black;
+    FastLED.show();
+  }
+}
     
+void displayDigit2(int digit,CRGB color,int delayTime){
+  
+  
+    if(digit==1){
+      seg42();
+      seg52();
+      FastLED.show();
+    } else if (digit ==2){
+      seg22();
+      seg32();
+      seg12();
+      seg72();
+      seg62();
+      FastLED.show();
+    } else if (digit == 3){
+      seg12();
+      seg32();
+      seg42();
+      seg52();
+      seg62();
+      FastLED.show();
+    } else if (digit==4){
+      seg12();
+      seg22();
+      seg42();
+      seg52();      
+      
+
+      FastLED.show();
+    } else if (digit==5){
+      seg32();
+      seg22();
+      seg12();
+      seg52();
+      seg62();
+      FastLED.show();
+    } else if (digit==6){
+      seg32();
+      seg22();
+      seg12();
+      seg52();
+      seg62();
+      seg72();
+      FastLED.show();
+    } else if (digit==7){
+      seg32();
+      seg42();
+      seg52();
+      FastLED.show();
+    } else if (digit==8){
+      seg12();
+      seg22();
+      seg32();
+      seg42();
+      seg52();
+      seg62();
+      seg72();
+      FastLED.show();
+    } else if (digit==9){
+      seg12();
+      seg22();
+      seg32();
+      seg42();
+      seg52();
+      seg62();
+      FastLED.show();
+    } else if (digit==0){
+      seg22();
+      seg32();
+      seg42();
+      seg52();
+      seg62();
+      seg72();
+    }
 
 
 delay(delayTime);
@@ -349,4 +429,39 @@ void loopColors8(){
   delay(5000);
     
 
+}
+
+void seg12(){
+      leds[0]=color;//segment in middle
+      leds[1]=color;
+      leds[2]=color;
+}
+void seg22(){
+      leds[3]=color;//segment on top left
+      leds[4]=color;
+      leds[5]=color;
+}
+void seg32(){
+      leds[6]=color;//segment on top
+      leds[7]=color;
+      leds[8]=color;
+}
+void seg42(){
+      leds[9]=color;//segment on top right
+      leds[10]=color;
+      leds[11]=color;
+}
+void seg52(){
+      leds[12]=color;//segment on bottom right
+      leds[13]=color;
+      leds[14]=color;
+}
+void seg62(){
+      leds[15]=color;//segment on bottom 
+      leds[16]=color;
+      leds[17]=color;
+}void seg72(){
+      leds[18]=color;//segment on bottom left
+      leds[19]=color;
+      leds[20]=color;
 }
