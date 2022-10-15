@@ -328,10 +328,10 @@ void displayDigit2(int digit,CRGB color,int delayTime){
       seg52(color);
       FastLED.show();
     } else if (digit ==2){
-      seg22(color);
+      seg42(color);
       seg32(color);
       seg12(color);
-      seg52(color);
+      seg72(color);
       seg62(color);
       FastLED.show();
     } else if (digit == 3){
@@ -393,6 +393,7 @@ void displayDigit2(int digit,CRGB color,int delayTime){
       seg52(color);
       seg62(color);
       seg72(color);
+      FastLED.show();
     }
 
 
